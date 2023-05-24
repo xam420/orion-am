@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/_variables.scss","../scss/_comunes.scss"],"names":[],"mappings":"AAAA;AAIA;AAKA;ACTA;EACI;EACA","file":"style.css"}
