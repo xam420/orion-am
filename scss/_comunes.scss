@@ -2,3 +2,41 @@
     text-decoration: none;
     list-style: none;
 }
+
+header {
+    background-color: $color-secundario;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: $minima;
+    }
+
+    ul li a {
+        color: $color-primario;
+        font-weight: $fuente-media;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .logo {
+        color: $color-primario;
+        font-weight: $fuente-gorda;
+        font-family: 'Raleway', sans-serif;
+        font-size: 25px;
+    }
+}
+
+@media (min-width: $tablet) {
+    .nav_bar {
+       flex-direction: row;
+       gap: $media;
+       font-size: 18px;
+    }
+}
