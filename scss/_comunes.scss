@@ -5,6 +5,10 @@
     list-style: none;
 }
 
+body {
+    background-color: $color-primario;
+}
+
 header {
     background-color: $color-secundario;
     height: 150px;
