@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     text-decoration: none;
     list-style: none;
 }
@@ -21,14 +23,14 @@ header {
 
     ul li a {
         color: $color-primario;
-        font-weight: $fuente-media;
         font-family: 'Raleway', sans-serif;
+        font-weight: 300;
     }
 
     .logo {
         color: $color-primario;
-        font-weight: $fuente-gorda;
-        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-family: 'Playfair Display', serif;
         font-size: 25px;
     }
 }
