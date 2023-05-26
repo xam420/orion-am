@@ -4,6 +4,7 @@ header .logo {
     font-size: 25px;
 }
 
+/*SECCION TRABAJOS*/
 .trabajos {
     display: flex;
     flex-direction: column;
@@ -28,17 +29,19 @@ header .logo {
                 object-fit: cover;
             }
         }
-        p {
+        h1 {
             text-align: center;
-            padding-top: 20px;
+            padding-top: 10px;
+            font-weight: 100;
             width: auto;
             color: $color-primario;
+            font-size: 15px;
         }
         a {
             background-color: $color-primario;
             color: $color-secundario;
             padding: 5px;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
             text-decoration: none;
             transition: .5s;
         }
@@ -67,20 +70,23 @@ header .logo {
                 object-fit: cover;
             }
         }
-        p {
+        h1 {
             text-align: center;
-            padding-top: 20px;
+            padding-top: 10px;
+            font-weight: 100;
             width: auto;
             color: $color-primario;
+            font-size: 15px;
         }
         a {
             background-color: $color-primario;
             color: $color-secundario;
             padding: 5px;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
             text-decoration: none;
             transition: .5s;
         }
+        
         a:hover {
             border: solid 0px $color-primario;
             color: $color-primario;
@@ -106,17 +112,19 @@ header .logo {
                 object-fit: cover;
             }
         }
-        p {
+        h1 {
             text-align: center;
-            padding-top: 20px;
+            padding-top: 10px;
+            font-weight: 100;
             width: auto;
             color: $color-primario;
+            font-size: 15px;
         }
         a {
             background-color: $color-primario;
             color: $color-secundario;
             padding: 5px;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
             text-decoration: none;
             transition: .5s;
         }
@@ -146,17 +154,19 @@ header .logo {
                 object-fit: cover;
             }
         }
-        p {
+        h1 {
             text-align: center;
-            padding-top: 20px;
+            padding-top: 10px;
+            font-weight: 100;
             width: auto;
             color: $color-primario;
+            font-size: 15px;
         }
         a {
             background-color: $color-primario;
             color: $color-secundario;
             padding: 5px;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
             text-decoration: none;
             transition: .5s;
         }
@@ -167,6 +177,38 @@ header .logo {
         }
     }
 }
-    
 
+/*MEDIA TABLET SECCION TRABAJOS*/
+@media (min-width: $tablet) {
+    .trabajos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 450px 450px;
 
+        .job1 {
+            a {
+                margin-bottom: 10px;
+            }
+        }
+
+        .job2 {
+            a {
+                margin-bottom: 10px;
+            }
+        }
+
+        .job3 {
+            margin-bottom: 30px;
+            a {
+                margin-bottom: 10px;
+            }
+        }
+
+        .job4  {
+            margin-bottom: 30px;
+            a {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

@@ -108,6 +108,8 @@ main .img_main img {
   font-weight: 400;
   font-size: 20px;
   color: #fefae0;
+  background-color: #000814;
+  padding: 5px;
 }
 .blog .blog2, .blog .blog3 {
   position: relative;
@@ -127,6 +129,8 @@ main .img_main img {
   font-weight: 400;
   font-size: 20px;
   color: #fefae0;
+  background-color: #000814;
+  padding: 5px;
 }
 
 /*MEDIA BLOG*/
@@ -171,6 +175,7 @@ header .logo {
   font-size: 25px;
 }
 
+/*SECCION TRABAJOS*/
 .trabajos {
   display: flex;
   flex-direction: column;
@@ -196,17 +201,19 @@ header .logo {
   height: 100%;
   object-fit: cover;
 }
-.trabajos .job1 p {
+.trabajos .job1 h1 {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
+  font-weight: 100;
   width: auto;
   color: #fefae0;
+  font-size: 15px;
 }
 .trabajos .job1 a {
   background-color: #fefae0;
   color: #000814;
   padding: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -234,17 +241,19 @@ header .logo {
   height: 100%;
   object-fit: cover;
 }
-.trabajos .job2 p {
+.trabajos .job2 h1 {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
+  font-weight: 100;
   width: auto;
   color: #fefae0;
+  font-size: 15px;
 }
 .trabajos .job2 a {
   background-color: #fefae0;
   color: #000814;
   padding: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -272,17 +281,19 @@ header .logo {
   height: 100%;
   object-fit: cover;
 }
-.trabajos .job3 p {
+.trabajos .job3 h1 {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
+  font-weight: 100;
   width: auto;
   color: #fefae0;
+  font-size: 15px;
 }
 .trabajos .job3 a {
   background-color: #fefae0;
   color: #000814;
   padding: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -311,17 +322,19 @@ header .logo {
   height: 100%;
   object-fit: cover;
 }
-.trabajos .job4 p {
+.trabajos .job4 h1 {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
+  font-weight: 100;
   width: auto;
   color: #fefae0;
+  font-size: 15px;
 }
 .trabajos .job4 a {
   background-color: #fefae0;
   color: #000814;
   padding: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -329,6 +342,33 @@ header .logo {
   border: solid 0px #fefae0;
   color: #fefae0;
   background-color: #000814;
+}
+
+/*MEDIA TABLET SECCION TRABAJOS*/
+@media (min-width: 768px) {
+  .trabajos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 450px 450px;
+  }
+  .trabajos .job1 a {
+    margin-bottom: 10px;
+  }
+  .trabajos .job2 a {
+    margin-bottom: 10px;
+  }
+  .trabajos .job3 {
+    margin-bottom: 30px;
+  }
+  .trabajos .job3 a {
+    margin-bottom: 10px;
+  }
+  .trabajos .job4 {
+    margin-bottom: 30px;
+  }
+  .trabajos .job4 a {
+    margin-bottom: 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

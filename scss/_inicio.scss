@@ -65,7 +65,9 @@ main {
             left: 10px;
             font-weight: 400;
             font-size: 20px;
-            color: $color-primario
+            color: $color-primario;
+            background-color: $color-secundario;
+            padding: 5px;
         }
     }
 
@@ -85,7 +87,9 @@ main {
             left: 10px;
             font-weight: 400;
             font-size: 20px;
-            color: $color-primario
+            color: $color-primario;
+            background-color: $color-secundario;
+            padding: 5px;
         }
     }
 }
