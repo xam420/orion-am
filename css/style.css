@@ -171,4 +171,164 @@ header .logo {
   font-size: 25px;
 }
 
+.trabajos {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  gap: 30px;
+}
+.trabajos .job1 {
+  background-color: #000814;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trabajos .job1 .img {
+  width: 80%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.trabajos .job1 .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.trabajos .job1 p {
+  text-align: center;
+  padding-top: 20px;
+  width: auto;
+  color: #fefae0;
+}
+.trabajos .job1 a {
+  background-color: #fefae0;
+  color: #000814;
+  padding: 5px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.trabajos .job1 a:hover {
+  border: solid 0px #fefae0;
+  color: #fefae0;
+  background-color: #000814;
+}
+.trabajos .job2 {
+  background-color: #000814;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trabajos .job2 .img {
+  width: 80%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.trabajos .job2 .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.trabajos .job2 p {
+  text-align: center;
+  padding-top: 20px;
+  width: auto;
+  color: #fefae0;
+}
+.trabajos .job2 a {
+  background-color: #fefae0;
+  color: #000814;
+  padding: 5px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.trabajos .job2 a:hover {
+  border: solid 0px #fefae0;
+  color: #fefae0;
+  background-color: #000814;
+}
+.trabajos .job3 {
+  background-color: #000814;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trabajos .job3 .img {
+  width: 80%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.trabajos .job3 .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.trabajos .job3 p {
+  text-align: center;
+  padding-top: 20px;
+  width: auto;
+  color: #fefae0;
+}
+.trabajos .job3 a {
+  background-color: #fefae0;
+  color: #000814;
+  padding: 5px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.trabajos .job3 a:hover {
+  border: solid 0px #fefae0;
+  color: #fefae0;
+  background-color: #000814;
+}
+.trabajos .job4 {
+  background-color: #000814;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.trabajos .job4 .img {
+  width: 80%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.trabajos .job4 .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.trabajos .job4 p {
+  text-align: center;
+  padding-top: 20px;
+  width: auto;
+  color: #fefae0;
+}
+.trabajos .job4 a {
+  background-color: #fefae0;
+  color: #000814;
+  padding: 5px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.trabajos .job4 a:hover {
+  border: solid 0px #fefae0;
+  color: #fefae0;
+  background-color: #000814;
+}
+
 /*# sourceMappingURL=style.css.map */
