@@ -58,7 +58,7 @@ main .texto1_main, main .texto2_main {
   background-color: #fefae0;
   font-family: "Raleway", sans-serif;
   text-align: center;
-  padding: 20px;
+  padding: 20px 0px 20px 0px;
   width: 100%;
 }
 main .texto1_main h1, main .texto2_main h1 {
@@ -89,18 +89,18 @@ main .img_main img {
   font-weight: 200;
   font-size: 27px;
 }
-.blog .blog1, .blog .blog2, .blog .blog3 {
+.blog .blog1 {
   position: relative;
   margin: 0 auto;
   height: 300px;
   width: 100%;
 }
-.blog .blog1 img, .blog .blog2 img, .blog .blog3 img {
+.blog .blog1 img {
   object-fit: cover;
   width: 100%;
   height: 100%;
 }
-.blog .blog1 a, .blog .blog2 a, .blog .blog3 a {
+.blog .blog1 a {
   position: absolute;
   top: 85%;
   left: 10px;
@@ -108,13 +108,58 @@ main .img_main img {
   font-size: 20px;
   color: #fefae0;
 }
+.blog .blog2, .blog .blog3 {
+  position: relative;
+  margin: 0 auto;
+  height: 300px;
+  width: 100%;
+}
+.blog .blog2 img, .blog .blog3 img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.blog .blog2 a, .blog .blog3 a {
+  position: absolute;
+  top: 85%;
+  left: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fefae0;
+}
+
+/*MEDIA BLOG*/
+@media (min-width: 1024px) {
+  .blog {
+    display: grid;
+    grid-template-areas: "titulo_blog titulo_blog" "blog1 blog1" "blog2 blog3";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 300px 330px;
+  }
+  .titulo_blog {
+    grid-area: titulo_blog;
+    display: flex;
+    justify-content: center;
+  }
+  .blog1 {
+    grid-area: blog1;
+  }
+  .blog2 {
+    grid-area: blog2;
+  }
+  .blog3 {
+    grid-area: blog3;
+  }
+}
 footer {
   height: 50px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 footer h3 {
   font-family: "Raleway", sans-serif;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 400;
   padding: 5px;
 }
