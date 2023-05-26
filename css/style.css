@@ -2,6 +2,7 @@
 /*PALETA DE COLORES*/
 /*PANTALLAS*/
 /*SEPARACIÓN ENTRE ELEMENTOS*/
+/*FUENTE*/
 * {
   margin: 0;
   padding: 0;
@@ -162,6 +163,12 @@ footer h3 {
   font-size: 14px;
   font-weight: 400;
   padding: 5px;
+}
+
+header .logo {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
