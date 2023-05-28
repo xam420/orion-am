@@ -1,0 +1,93 @@
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    gap: $media;
+
+    .texto {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        gap: $minima;
+        h1 {
+            font-family: $principal;
+        }
+        p {
+            font-family: $secundaria;
+        }
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+/*MEDIA NOSOTROS*/
+@media (min-width: $desktop) {
+    .nosotros {
+        flex-direction: row;
+        gap: 5px;
+        height: 600px;
+        margin-top: 20px;
+
+        .texto {
+            width: 400px;
+        }
+         .img {
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+         }
+    }
+}
+
+/*FOOTER*/
+.contacto {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: $minima;
+
+    h1 {
+        font-family: $principal;
+        font-size: 30px;
+    }
+
+    .links {
+        display: flex;
+        gap: $minima;
+        text-align: center;
+
+        a {
+            background-color: $color-secundario;
+            color: $color-primario;
+            padding: 8px;
+            font-family: $secundaria;
+            font-weight: 200;
+            font-size: 20px;
+            transition: 0.5s;
+        }
+
+        .ig:hover {
+            background-color: #E1306C;
+            color: $color-secundario;
+        }
+
+        .gm:hover {
+            background-color: #ff0000;
+            color: $color-secundario;
+        }
+    }
+}
+
+
+

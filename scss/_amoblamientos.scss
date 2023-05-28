@@ -1,7 +1,7 @@
 header .logo {
     text-decoration: none;
-    font-weight: 600;
     font-size: 25px;
+    font-family: $principal !important;
 }
 
 /*SECCION TRABAJOS*/
@@ -9,10 +9,9 @@ header .logo {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
-    gap: $media;
+    gap: $minima;
 
     .job1 {
-        background-color: $color-secundario;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -34,7 +33,7 @@ header .logo {
             padding-top: 10px;
             font-weight: 100;
             width: auto;
-            color: $color-primario;
+            color: $color-secundario;
             font-size: 15px;
         }
         a {
@@ -53,7 +52,6 @@ header .logo {
     }
 
     .job2  {
-        background-color: $color-secundario;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -75,7 +73,7 @@ header .logo {
             padding-top: 10px;
             font-weight: 100;
             width: auto;
-            color: $color-primario;
+            color: $color-secundario;
             font-size: 15px;
         }
         a {
@@ -95,7 +93,6 @@ header .logo {
     }
 
     .job3 {
-        background-color: $color-secundario;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -117,7 +114,7 @@ header .logo {
             padding-top: 10px;
             font-weight: 100;
             width: auto;
-            color: $color-primario;
+            color: $color-secundario;
             font-size: 15px;
         }
         a {
@@ -136,7 +133,6 @@ header .logo {
     }
 
     .job4 {
-        background-color: $color-secundario;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -159,7 +155,7 @@ header .logo {
             padding-top: 10px;
             font-weight: 100;
             width: auto;
-            color: $color-primario;
+            color: $color-secundario;
             font-size: 15px;
         }
         a {
@@ -183,7 +179,7 @@ header .logo {
     .trabajos {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 450px 450px;
+        grid-template-rows: 350px 350px;
 
         .job1 {
             a {
@@ -212,3 +208,5 @@ header .logo {
         }
     }
 }
+
+

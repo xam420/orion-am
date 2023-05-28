@@ -171,8 +171,8 @@ footer h3 {
 
 header .logo {
   text-decoration: none;
-  font-weight: 600;
   font-size: 25px;
+  font-family: "Playfair Display", serif !important;
 }
 
 /*SECCION TRABAJOS*/
@@ -180,10 +180,9 @@ header .logo {
   display: flex;
   flex-direction: column;
   padding-top: 20px;
-  gap: 30px;
+  gap: 10px;
 }
 .trabajos .job1 {
-  background-color: #000814;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -206,7 +205,7 @@ header .logo {
   padding-top: 10px;
   font-weight: 100;
   width: auto;
-  color: #fefae0;
+  color: #000814;
   font-size: 15px;
 }
 .trabajos .job1 a {
@@ -223,7 +222,6 @@ header .logo {
   background-color: #000814;
 }
 .trabajos .job2 {
-  background-color: #000814;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -246,7 +244,7 @@ header .logo {
   padding-top: 10px;
   font-weight: 100;
   width: auto;
-  color: #fefae0;
+  color: #000814;
   font-size: 15px;
 }
 .trabajos .job2 a {
@@ -263,7 +261,6 @@ header .logo {
   background-color: #000814;
 }
 .trabajos .job3 {
-  background-color: #000814;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -286,7 +283,7 @@ header .logo {
   padding-top: 10px;
   font-weight: 100;
   width: auto;
-  color: #fefae0;
+  color: #000814;
   font-size: 15px;
 }
 .trabajos .job3 a {
@@ -303,7 +300,6 @@ header .logo {
   background-color: #000814;
 }
 .trabajos .job4 {
-  background-color: #000814;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -327,7 +323,7 @@ header .logo {
   padding-top: 10px;
   font-weight: 100;
   width: auto;
-  color: #fefae0;
+  color: #000814;
   font-size: 15px;
 }
 .trabajos .job4 a {
@@ -349,7 +345,7 @@ header .logo {
   .trabajos {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 450px 450px;
+    grid-template-rows: 350px 350px;
   }
   .trabajos .job1 a {
     margin-bottom: 10px;
@@ -369,6 +365,85 @@ header .logo {
   .trabajos .job4 a {
     margin-bottom: 10px;
   }
+}
+.nosotros {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.nosotros .texto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  gap: 10px;
+}
+.nosotros .texto h1 {
+  font-family: "Playfair Display", serif;
+}
+.nosotros .texto p {
+  font-family: "Raleway", sans-serif;
+}
+.nosotros .img {
+  width: 100%;
+  height: auto;
+}
+.nosotros .img img {
+  width: 100%;
+  height: 100%;
+}
+
+/*MEDIA NOSOTROS*/
+@media (min-width: 1024px) {
+  .nosotros {
+    flex-direction: row;
+    gap: 5px;
+    height: 600px;
+    margin-top: 20px;
+  }
+  .nosotros .texto {
+    width: 400px;
+  }
+  .nosotros .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+/*FOOTER*/
+.contacto {
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.contacto h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+}
+.contacto .links {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+}
+.contacto .links a {
+  background-color: #000814;
+  color: #fefae0;
+  padding: 8px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  transition: 0.5s;
+}
+.contacto .links .ig:hover {
+  background-color: #E1306C;
+  color: #000814;
+}
+.contacto .links .gm:hover {
+  background-color: #ff0000;
+  color: #000814;
 }
 
 /*# sourceMappingURL=style.css.map */
