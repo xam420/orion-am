@@ -23,8 +23,6 @@
     }
     
     .cards {
-        display: flex;
-        flex-direction: column;
         gap: $media;
 
         .card1 {
@@ -76,6 +74,18 @@
     }
 }
 
+/*MEDIA*/
+@media (min-width: $desktop){
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "card1 card2"
+        "card3 card4";
+    }
+}
+
 .explore {
     margin-top: 10px;
     a {
@@ -94,3 +104,4 @@
         border: 1px solid;
     }
 }
+

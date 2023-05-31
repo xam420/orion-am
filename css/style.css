@@ -466,8 +466,6 @@ header .logo {
   font-size: 20px;
 }
 .mate .cards {
-  display: flex;
-  flex-direction: column;
   gap: 30px;
 }
 .mate .cards .card1 {
@@ -511,6 +509,15 @@ header .logo {
   object-fit: cover;
 }
 
+/*MEDIA*/
+@media (min-width: 1024px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "card1 card2" "card3 card4";
+  }
+}
 .explore {
   margin-top: 10px;
 }
