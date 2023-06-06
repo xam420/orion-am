@@ -628,5 +628,130 @@ main .gama1 div img {
     object-fit: cover;
   }
 }
+main h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin-top: 20px;
+}
+main h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+}
+main .gama1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .gama1 div {
+  width: 450px;
+  height: 250px;
+  margin-top: 20px;
+}
+main .gama1 div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (min-width: 1024px) {
+  main .gama1 {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  main .gama1 div {
+    width: 450px;
+    height: 250px;
+  }
+  main .gama1 div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.gama2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.gama2 div {
+  width: 450px;
+  height: 250px;
+  margin-top: 20px;
+}
+.gama2 div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 1024px) {
+  .gama2 {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .gama2 div {
+    width: 450px;
+    height: 250px;
+  }
+  .gama2 div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+main h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin-top: 20px;
+}
+main h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+}
+main .gama1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .gama1 div {
+  width: 450px;
+  height: 250px;
+  margin-top: 20px;
+}
+main .gama1 div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (min-width: 1024px) {
+  main .gama1 {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  main .gama1 div {
+    width: 450px;
+    height: 250px;
+  }
+  main .gama1 div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
