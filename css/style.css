@@ -237,19 +237,6 @@ header .logo {
   color: #000814;
   font-size: 15px;
 }
-.trabajos .job1 a {
-  background-color: #fefae0;
-  color: #000814;
-  padding: 5px;
-  margin-bottom: 10px;
-  text-decoration: none;
-  transition: 0.5s;
-}
-.trabajos .job1 a:hover {
-  border: solid 0px #fefae0;
-  color: #fefae0;
-  background-color: #000814;
-}
 .trabajos .job2 {
   display: flex;
   flex-direction: column;
@@ -276,19 +263,6 @@ header .logo {
   color: #000814;
   font-size: 15px;
 }
-.trabajos .job2 a {
-  background-color: #fefae0;
-  color: #000814;
-  padding: 5px;
-  margin-bottom: 10px;
-  text-decoration: none;
-  transition: 0.5s;
-}
-.trabajos .job2 a:hover {
-  border: solid 0px #fefae0;
-  color: #fefae0;
-  background-color: #000814;
-}
 .trabajos .job3 {
   display: flex;
   flex-direction: column;
@@ -314,19 +288,6 @@ header .logo {
   width: auto;
   color: #000814;
   font-size: 15px;
-}
-.trabajos .job3 a {
-  background-color: #fefae0;
-  color: #000814;
-  padding: 5px;
-  margin-bottom: 10px;
-  text-decoration: none;
-  transition: 0.5s;
-}
-.trabajos .job3 a:hover {
-  border: solid 0px #fefae0;
-  color: #fefae0;
-  background-color: #000814;
 }
 .trabajos .job4 {
   display: flex;
@@ -355,26 +316,14 @@ header .logo {
   color: #000814;
   font-size: 15px;
 }
-.trabajos .job4 a {
-  background-color: #fefae0;
-  color: #000814;
-  padding: 5px;
-  margin-bottom: 10px;
-  text-decoration: none;
-  transition: 0.5s;
-}
-.trabajos .job4 a:hover {
-  border: solid 0px #fefae0;
-  color: #fefae0;
-  background-color: #000814;
-}
 
 /*DESKTOP*/
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .trabajos {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 350px 350px;
+    gap: 30px;
   }
   .trabajos .job1 a {
     margin-bottom: 10px;

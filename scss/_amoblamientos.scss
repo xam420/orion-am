@@ -36,19 +36,7 @@ header .logo {
             color: $color-secundario;
             font-size: 15px;
         }
-        a {
-            background-color: $color-primario;
-            color: $color-secundario;
-            padding: 5px;
-            margin-bottom: 10px;
-            text-decoration: none;
-            transition: .5s;
-        }
-        a:hover {
-            border: solid 0px $color-primario;
-            color: $color-primario;
-            background-color: $color-secundario;
-        }
+       
     }
 
     .job2  {
@@ -76,20 +64,7 @@ header .logo {
             color: $color-secundario;
             font-size: 15px;
         }
-        a {
-            background-color: $color-primario;
-            color: $color-secundario;
-            padding: 5px;
-            margin-bottom: 10px;
-            text-decoration: none;
-            transition: .5s;
-        }
-        
-        a:hover {
-            border: solid 0px $color-primario;
-            color: $color-primario;
-            background-color: $color-secundario;
-        }
+       
     }
 
     .job3 {
@@ -117,19 +92,7 @@ header .logo {
             color: $color-secundario;
             font-size: 15px;
         }
-        a {
-            background-color: $color-primario;
-            color: $color-secundario;
-            padding: 5px;
-            margin-bottom: 10px;
-            text-decoration: none;
-            transition: .5s;
-        }
-        a:hover {
-            border: solid 0px $color-primario;
-            color: $color-primario;
-            background-color: $color-secundario;
-        }
+       
     }
 
     .job4 {
@@ -158,28 +121,17 @@ header .logo {
             color: $color-secundario;
             font-size: 15px;
         }
-        a {
-            background-color: $color-primario;
-            color: $color-secundario;
-            padding: 5px;
-            margin-bottom: 10px;
-            text-decoration: none;
-            transition: .5s;
-        }
-        a:hover {
-            border: solid 0px $color-primario;
-            color: $color-primario;
-            background-color: $color-secundario;
-        }
+        
     }
 }
 
 /*DESKTOP*/
-@media (min-width: $tablet) {
+@media (min-width: $desktop) {
     .trabajos {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 350px 350px;
+        gap: $media;
 
         .job1 {
             a {
