@@ -1,3 +1,4 @@
+/*MOBILE*/
 .h-mat {
     ul li a {
         font-family: $secundaria;
@@ -74,7 +75,7 @@
     }
 }
 
-/*MEDIA*/
+/*DESKTOP*/
 @media (min-width: $desktop){
     .cards {
         display: grid;

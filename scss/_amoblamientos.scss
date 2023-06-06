@@ -4,7 +4,7 @@ header .logo {
     font-family: $principal !important;
 }
 
-/*SECCION TRABAJOS*/
+/*MOBILE*/
 .trabajos {
     display: flex;
     flex-direction: column;
@@ -174,7 +174,7 @@ header .logo {
     }
 }
 
-/*MEDIA TABLET SECCION TRABAJOS*/
+/*DESKTOP*/
 @media (min-width: $tablet) {
     .trabajos {
         display: grid;

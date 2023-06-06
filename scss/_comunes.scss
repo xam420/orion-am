@@ -1,3 +1,4 @@
+/*MOBILE*/
 * {
     margin: 0;
     padding: 0;
@@ -38,11 +39,24 @@ header {
         font-size: 25px;
     }
 }
-
+/*DESKTOP*/
 @media (min-width: $tablet) {
     .nav_bar {
        flex-direction: row;
        gap: $media;
        font-size: 18px;
+    }
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h3 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 5px; 
     }
 }

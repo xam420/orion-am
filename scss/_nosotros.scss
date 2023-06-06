@@ -1,3 +1,4 @@
+/*MOBILE*/
 .nosotros {
     display: flex;
     flex-direction: column;
@@ -27,7 +28,7 @@
     }
 }
 
-/*MEDIA NOSOTROS*/
+/*DESKTOP*/
 @media (min-width: $desktop) {
     .nosotros {
         flex-direction: row;
@@ -39,6 +40,8 @@
             width: 400px;
         }
          .img {
+            width: 1000px;
+            height: 550px;
             img {
                 width: 100%;
                 height: 100%;

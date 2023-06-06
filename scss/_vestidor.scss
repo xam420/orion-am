@@ -1,3 +1,4 @@
+/*MOBILE*/
 main {
     h2 {
         font-family: $secundaria;
@@ -27,7 +28,7 @@ main {
             }
         }
     }
-    
+/*DESKTOP*/
 @media (min-width: $desktop){
     .gama1 {
         display: grid;
