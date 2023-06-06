@@ -18,7 +18,15 @@ main {
     }
 
     .texto2_main {
-        @extend .texto1_main;
+        background-color: $color-primario;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        padding: 20px 0px 20px 0px;
+        width: 100%;
+        h2 {
+            font-weight: 300;
+            font-size: 27px
+        }
     }
 
     .img_main{
@@ -41,11 +49,12 @@ main {
     gap: $minima;
     font-family: 'Raleway', sans-serif;
 
-    .titulo_blog {
+    .titulo_gamas {
         font-family: 'Playfair Display', serif;
-        h1 {
+        h2 {
             font-weight: 200;
             font-size: 27px;
+            margin: 0 auto;
         }
     }
 
