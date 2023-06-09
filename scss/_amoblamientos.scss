@@ -1,7 +1,10 @@
-header .logo {
-    text-decoration: none;
-    font-size: 25px;
-    font-family: $principal !important;
+header {
+    .logo {
+        text-decoration: none;
+    }
+    .nav_bar li a {
+        text-decoration: none;
+    }
 }
 
 /*MOBILE*/
@@ -36,6 +39,18 @@ header .logo {
             color: $color-secundario;
             font-size: 15px;
         }
+
+        a {
+            text-decoration: none;
+            color: $color-secundario;
+            transition: 0.5s;
+            padding: 10px 20px 10px 20px;
+        }
+
+        a:hover {
+            color: $color-primario;
+            background-color: $color-secundario;
+        }
        
     }
 
@@ -64,6 +79,18 @@ header .logo {
             color: $color-secundario;
             font-size: 15px;
         }
+
+        a {
+            text-decoration: none;
+            color: $color-secundario;
+            transition: 0.5s;
+            padding: 10px 20px 10px 20px;
+        }
+
+        a:hover {
+            color: $color-primario;
+            background-color: $color-secundario;
+        }
        
     }
 
@@ -91,6 +118,18 @@ header .logo {
             width: auto;
             color: $color-secundario;
             font-size: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: $color-secundario;
+            transition: 0.5s;
+            padding: 10px 20px 10px 20px;
+        }
+
+        a:hover {
+            color: $color-primario;
+            background-color: $color-secundario;
         }
        
     }
@@ -121,6 +160,18 @@ header .logo {
             color: $color-secundario;
             font-size: 15px;
         }
+
+        a {
+            text-decoration: none;
+            color: $color-secundario;
+            transition: 0.5s;
+            padding: 10px 20px 10px 20px;
+        }
+
+        a:hover {
+            color: $color-primario;
+            background-color: $color-secundario;
+        }
         
     }
 }
@@ -131,7 +182,7 @@ header .logo {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 350px 350px;
-        gap: $media;
+        gap: 5px;
 
         .job1 {
             a {
@@ -159,6 +210,7 @@ header .logo {
             }
         }
     }
+    
 }
 
 
