@@ -1,10 +1,16 @@
 header {
-    .logo {
+    .logo_am {
         text-decoration: none;
+        color: $color-primario;
+        font-weight: 600;
+        font-family: 'Playfair Display', serif;
+        font-size: 25px;
     }
-    .nav_bar li a {
-        text-decoration: none;
+    .nav_bar_am {
+        margin-top: 10px;
+        margin-right: 5px;
     }
+
 }
 
 /*MOBILE*/
@@ -20,7 +26,7 @@ header {
         justify-content: center;
         align-items: center;
         .img {
-            width: 80%;
+            width: 350px;
             height: 250px;
             display: flex;
             justify-content: center;
@@ -60,7 +66,7 @@ header {
         justify-content: center;
         align-items: center;
         .img {
-            width: 80%;
+            width: 350px;
             height: 250px;
             display: flex;
             justify-content: center;
@@ -100,7 +106,7 @@ header {
         justify-content: center;
         align-items: center;
         .img {
-            width: 80%;
+            width: 350px;
             height: 250px;
             display: flex;
             justify-content: center;
@@ -141,7 +147,7 @@ header {
         align-items: center;
         margin-bottom: 30px;
         .img {
-            width: 80%;
+            width: 350px;
             height: 250px;
             display: flex;
             justify-content: center;
@@ -180,19 +186,27 @@ header {
 @media (min-width: $desktop) {
     .trabajos {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 350px 350px;
-        gap: 5px;
+        grid-template-columns: 550px 550px;
+        grid-template-rows: 450px 450px;
+        padding-top: 30px;
 
         .job1 {
             a {
                 margin-bottom: 10px;
+            }
+            .img {
+                width: 500px;
+                height: 350px;
             }
         }
 
         .job2 {
             a {
                 margin-bottom: 10px;
+            }
+            .img {
+                width: 500px;
+                height: 350px;
             }
         }
 
@@ -201,6 +215,10 @@ header {
             a {
                 margin-bottom: 10px;
             }
+            .img {
+                width: 500px;
+                height: 350px;
+            }
         }
 
         .job4  {
@@ -208,9 +226,33 @@ header {
             a {
                 margin-bottom: 10px;
             }
+            .img {
+                width: 500px;
+                height: 350px;
+            }
         }
     }
     
+}
+/*MEDIA MOD ESTILOS DE BS*/
+@media (min-width: $tablet) {
+    .nav_bar_am {
+       flex-direction: row;
+       gap: $media;
+       font-size: 18px;
+       margin-top: 18px;
+       margin-right: 10px;
+    }
+
+    .logo_am {
+        color: $color-primario;
+        font-weight: 600;
+        font-family: 'Playfair Display', serif;
+        font-size: 25px;
+        text-decoration: none;
+        margin-left: 12px;
+        margin-top: 3px;  
+    }
 }
 
 

@@ -5,6 +5,21 @@
     }
 }
 
+header {
+    .logo_mat {
+        text-decoration: none;
+        color: $color-primario;
+        font-weight: 600;
+        font-family: 'Playfair Display', serif;
+        font-size: 25px;
+    }
+    .nav_bar_mat {
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+
+}
+
 .mate {
     display: flex;
     flex-direction: column;
@@ -24,26 +39,68 @@
     }
     
     .cards {
-        gap: $media;
-
         .card1 {
-            margin-top: 20px;
-            background-color: $color-secundario;
+            height: 350px;
+            margin-bottom: 50px;
+
+            .texto h2 {
+                font-family: $secundaria;
+                color: $color-secundario;
+            }
+            .img {
+                img {
+                    width: 350px;
+                    height: 250px;
+                }
+            }
         }
 
         .card2 {
-            margin-top: 20px;
-            background-color: $color-secundario;
+            height: 350px;
+            margin-bottom: 50px;
+
+            .texto h2 {
+                font-family: $secundaria;
+                color: $color-secundario;
+            }
+            .img {
+                img {
+                    width: 350px;
+                    height: 250px;
+                }
+            }
         }
 
         .card3 {
-            margin-top: 20px;
-            background-color: $color-secundario;
+            height: 350px;
+            margin-bottom: 50px;
+
+            .texto h2 {
+                font-family: $secundaria;
+                color: $color-secundario;
+            }
+            .img {
+                img {
+                    width: 350px;
+                    height: 250px;
+                }
+            }
         }
 
         .card4 {
-            margin-top: 20px;
-            background-color: $color-secundario;
+            height: 350px;
+            margin-bottom: 40px;
+            
+            .texto h2 {
+                font-family: $secundaria;
+                color: $color-secundario;
+            }
+            .img {
+                img {
+                    width: 350px;
+                    height: 250px;
+                }
+            }
         }
 
         .card1 .card2 .card3 .card4 {
@@ -79,30 +136,65 @@
 @media (min-width: $desktop){
     .cards {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 550px 550px;
+        grid-template-rows: 450px 450px;
         grid-template-areas: 
         "card1 card2"
         "card3 card4";
     }
-}
 
-.explore {
-    margin-top: 10px;
-    a {
-        text-decoration: none;
-        padding: 10px;
-        background-color: $color-secundario;
+    .card1 {
+        height: 400px;
+        .img  {
+            width: 500px;
+            height: 350px;
+        }
+    }
+
+    .card2 {
+        height: 400px;
+        .img  {
+            width: 500px;
+            height: 350px;
+        }
+    }
+
+    .card3 {
+        height: 400px;
+        .img  {
+            width: 500px;
+            height: 350px;
+        }
+    }
+
+    .card4 {
+        height: 400px;
+        .img  {
+            width: 500px;
+            height: 350px;
+        }
+    }
+}
+/*MEDIA MOD ESTILOS DE BS*/
+@media (min-width: $tablet) {
+    .nav_bar_mat {
+       flex-direction: row;
+       gap: $media;
+       font-size: 18px;
+       margin-top: 18px;
+       margin-right: 10px;
+    }
+
+    .logo_mat {
         color: $color-primario;
-        transition: .5s;
-        font-family: $principal;
-        font-weight: 100;
-    }
-
-    a:hover {
-        background-color: $color-primario;
-        color: $color-secundario;
-        border: 1px solid;
+        font-weight: 600;
+        font-family: 'Playfair Display', serif;
+        font-size: 25px;
+        text-decoration: none;
+        margin-left: 12px;
+        margin-top: 3px;  
     }
 }
+
+
 
