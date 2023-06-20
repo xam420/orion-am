@@ -51,6 +51,15 @@
     }
 }
 
+footer {
+    margin-bottom: 10px;
+    
+    h3 {
+        padding: 0px 30px 0px 30px;
+        text-align: center;
+    }   
+}
+
 @media (min-width:$desktop){
 .caja1 {
     display: flex;

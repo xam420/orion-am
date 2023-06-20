@@ -227,152 +227,43 @@ header .nav_bar_am {
   padding-top: 20px;
   gap: 10px;
 }
-.trabajos .job1 {
+.trabajos .job1, .trabajos .job4, .trabajos .job3, .trabajos .job2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5px;
 }
-.trabajos .job1 .img {
+.trabajos .job1 .img, .trabajos .job4 .img, .trabajos .job3 .img, .trabajos .job2 .img {
   width: 350px;
   height: 250px;
   display: flex;
   justify-content: center;
   padding-top: 10px;
 }
-.trabajos .job1 .img img {
+.trabajos .job1 .img img, .trabajos .job4 .img img, .trabajos .job3 .img img, .trabajos .job2 .img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.trabajos .job1 h1 {
+.trabajos .job1 h2, .trabajos .job4 h2, .trabajos .job3 h2, .trabajos .job2 h2 {
   text-align: center;
-  padding-top: 10px;
-  font-weight: 100;
+  padding-top: 6px;
+  font-weight: 400;
   width: auto;
   color: #000814;
-  font-size: 15px;
+  font-size: 17px;
 }
-.trabajos .job1 a {
+.trabajos .job1 a, .trabajos .job4 a, .trabajos .job3 a, .trabajos .job2 a {
   text-decoration: none;
   color: #000814;
   transition: 0.5s;
   padding: 10px 20px 10px 20px;
 }
-.trabajos .job1 a:hover {
+.trabajos .job1 a:hover, .trabajos .job4 a:hover, .trabajos .job3 a:hover, .trabajos .job2 a:hover {
   color: #fefae0;
   background-color: #000814;
 }
-.trabajos .job2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.trabajos .job2 .img {
-  width: 350px;
-  height: 250px;
-  display: flex;
-  justify-content: center;
-  padding-top: 10px;
-}
-.trabajos .job2 .img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.trabajos .job2 h1 {
-  text-align: center;
-  padding-top: 10px;
-  font-weight: 100;
-  width: auto;
-  color: #000814;
-  font-size: 15px;
-}
-.trabajos .job2 a {
-  text-decoration: none;
-  color: #000814;
-  transition: 0.5s;
-  padding: 10px 20px 10px 20px;
-}
-.trabajos .job2 a:hover {
-  color: #fefae0;
-  background-color: #000814;
-}
-.trabajos .job3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.trabajos .job3 .img {
-  width: 350px;
-  height: 250px;
-  display: flex;
-  justify-content: center;
-  padding-top: 10px;
-}
-.trabajos .job3 .img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.trabajos .job3 h1 {
-  text-align: center;
-  padding-top: 10px;
-  font-weight: 100;
-  width: auto;
-  color: #000814;
-  font-size: 15px;
-}
-.trabajos .job3 a {
-  text-decoration: none;
-  color: #000814;
-  transition: 0.5s;
-  padding: 10px 20px 10px 20px;
-}
-.trabajos .job3 a:hover {
-  color: #fefae0;
-  background-color: #000814;
-}
-.trabajos .job4 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-}
-.trabajos .job4 .img {
-  width: 350px;
-  height: 250px;
-  display: flex;
-  justify-content: center;
-  padding-top: 10px;
-}
-.trabajos .job4 .img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.trabajos .job4 h1 {
-  text-align: center;
-  padding-top: 10px;
-  font-weight: 100;
-  width: auto;
-  color: #000814;
-  font-size: 15px;
-}
-.trabajos .job4 a {
-  text-decoration: none;
-  color: #000814;
-  transition: 0.5s;
-  padding: 10px 20px 10px 20px;
-}
-.trabajos .job4 a:hover {
-  color: #fefae0;
-  background-color: #000814;
-}
-
 /*DESKTOP*/
 @media (min-width: 1024px) {
   .trabajos {
@@ -381,10 +272,10 @@ header .nav_bar_am {
     grid-template-rows: 450px 450px;
     padding-top: 30px;
   }
-  .trabajos .job1 a {
+  .trabajos .job1 a, .trabajos .job2 a, .trabajos .job3 a, .trabajos .job4 a {
     margin-bottom: 10px;
   }
-  .trabajos .job1 .img {
+  .trabajos .job1 .img, .trabajos .job2 .img, .trabajos .job3 .img, .trabajos .job4 .img {
     width: 500px;
     height: 350px;
   }
@@ -555,49 +446,57 @@ header .nav_bar_mat {
 .mate .cards .card1 {
   height: 350px;
   margin-bottom: 50px;
+  padding-top: 20px;
 }
 .mate .cards .card1 .texto h2 {
   font-family: "Raleway", sans-serif;
   color: #000814;
+  font-size: 15px;
 }
 .mate .cards .card1 .img img {
-  width: 350px;
+  width: 100%;
   height: 250px;
 }
 .mate .cards .card2 {
   height: 350px;
   margin-bottom: 50px;
+  padding-top: 20px;
 }
 .mate .cards .card2 .texto h2 {
   font-family: "Raleway", sans-serif;
   color: #000814;
+  font-size: 15px;
 }
 .mate .cards .card2 .img img {
-  width: 350px;
+  width: 100%;
   height: 250px;
 }
 .mate .cards .card3 {
   height: 350px;
   margin-bottom: 50px;
+  padding-top: 20px;
 }
 .mate .cards .card3 .texto h2 {
   font-family: "Raleway", sans-serif;
   color: #000814;
+  font-size: 15px;
 }
 .mate .cards .card3 .img img {
-  width: 350px;
+  width: 100%;
   height: 250px;
 }
 .mate .cards .card4 {
   height: 350px;
   margin-bottom: 40px;
+  padding-top: 20px;
 }
 .mate .cards .card4 .texto h2 {
   font-family: "Raleway", sans-serif;
   color: #000814;
+  font-size: 15px;
 }
 .mate .cards .card4 .img img {
-  width: 350px;
+  width: 100%;
   height: 250px;
 }
 .mate .cards .card1 .card2 .card3 .card4 {
@@ -605,19 +504,20 @@ header .nav_bar_mat {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 18px;
 }
 .mate .cards .texto h2 {
-  font-size: 17px;
+  font-size: 15px;
   text-align: center;
   font-family: "Raleway", sans-serif;
-  padding: 10px 10px 2px 10px;
+  padding: 20px 10px 0px 10px;
   color: #fefae0;
 }
 .mate .cards .img {
-  width: 350px;
+  width: 100%;
   height: 350px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 5px 10px 5px 10px;
 }
 .mate .cards .img img {
   width: 100%;
@@ -625,12 +525,16 @@ header .nav_bar_mat {
   object-fit: cover;
 }
 
+footer {
+  margin-top: 20px;
+}
+
 /*DESKTOP*/
 @media (min-width: 1024px) {
   .cards {
     display: grid;
     grid-template-columns: 550px 550px;
-    grid-template-rows: 450px 450px;
+    grid-template-rows: 400px 400px;
     grid-template-areas: "card1 card2" "card3 card4";
   }
   .card1 {
@@ -679,6 +583,11 @@ header .nav_bar_mat {
     text-decoration: none;
     margin-left: 12px;
     margin-top: 3px;
+  }
+}
+@media (max-width: 435px) {
+  footer {
+    margin-top: 80px;
   }
 }
 /*MOBILE*/
@@ -952,6 +861,14 @@ main .gama1 div img {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+footer {
+  margin-bottom: 10px;
+}
+footer h3 {
+  padding: 0px 30px 0px 30px;
+  text-align: center;
 }
 
 @media (min-width: 1024px) {

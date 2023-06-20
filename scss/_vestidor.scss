@@ -13,10 +13,14 @@ main {
         text-align: center;
     }
 
-    .gama1 {
+    @mixin card(){
         display: flex;
         flex-direction: column;
         gap: $minima;
+    }
+
+    .gama1 {
+        @include card();
         div {
             width: 450px;
             height: 250px;
